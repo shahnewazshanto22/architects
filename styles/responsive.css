@@ -1,0 +1,243 @@
+@media screen and ( max-width : 576px ) {
+/*============== header responsive area =============== */
+.container {
+	width: unset;
+    
+}
+
+.nav {
+    flex-direction: column;
+    width: unset;
+}
+
+.header-logo {
+    width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+    text-align: center; 
+}
+
+.navber-nav {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.header-logo a {
+    font-size   : 24px; 
+}
+
+.navber-nav {
+	flex-direction: column;
+}
+
+.navber-nav ul li {
+	margin-right: 0;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*============== banner responsive area =============== */
+#banner {
+    padding-top: 14px;
+}
+.banner-text {
+	width: unset;
+}
+
+.banner-text h1 {
+	line-height: 50.07px;
+    font-size: 35px;
+}
+
+.banner-text p {
+	margin: 20px 0;
+	padding: 0 20px;
+}
+
+.banner-btn button {
+	font-size: 17px;
+}
+
+
+/*============== some-facts responsive area =============== */
+#features {
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+.some-facts-main-box {
+	flex-direction: column;
+}
+
+.features-main { 
+     display: block;
+     text-align: center;
+}
+
+.features-images-items {
+	grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.features-content {
+	width       : unset;
+    text-align  : center;
+    padding     : 0 20px;
+    margin-top  : 20px;
+}
+
+.features-btn button {
+	font-size   : 17px;
+}
+
+/*============== love-enjoy responsive area =============== */
+#love-enjoy {
+	padding-bottom: 70px;
+}
+.love-enjoy-main {
+	grid-template-columns: repeat(1, 100%);
+}
+
+.love-enjoy-content {
+	width: unset;
+}
+
+.love-enjoy-header {
+    padding: 0 20px;
+}
+
+.love-enjoy-header h2 {
+	padding-right: 0;
+    font-size: 40px;
+    line-height: 49.79px;
+}
+
+.love-enjoy-descriptions {
+	margin: 20px 20px;
+    padding: 12px 20px;
+}
+
+.love-enjoy-image-button-main {
+	width: unset;
+}
+
+.love-enjoy-image {
+	text-align: left;
+}
+
+.love-enjoy-image img {
+	width: 100%;
+}
+
+.love-enjoy-btn button {
+	padding: 30px 30px;
+}
+
+.love-enjoy-btn h3 {
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.love-enjoy-btn span {
+	font-size: 18px;
+}
+
+.love-enjoy-btn {
+	text-align: center;
+	margin-top: 70px;
+}
+/*============== some-facts responsive area =============== */
+#some-facts {
+	padding-bottom: 105px;
+}
+
+.some-facts-text {
+	width: unset;
+    text-align: center;
+}
+
+.some-facts-text h3 {
+	font-size: 40px;
+}
+
+.some-facts-text p {
+	padding: 0 20px;
+    margin-top: 12px;
+}
+
+.some-facts-box-items {
+	margin-top: 60px;
+}
+
+/*============== sponspors responsive area =============== */
+#sponspors {
+	padding-bottom: 70px;
+}
+
+.sponspors-header {
+	width: unset;
+}
+
+.sponspors-header h3 {
+	font-size: 40px;
+}
+
+.sponspors-header p {
+	margin: 20px 0 50px 0;
+    padding: 0 12px;
+}
+
+.sponspors-company {
+	flex-direction: column;
+    text-align: center;
+}
+
+.sponspors-company-images {
+	margin-bottom: 50px;
+}
+/*============== footer responsive area =============== */
+#footer {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.footer-main-content {
+	flex-direction: column;
+    text-align: center;
+}
+
+.footer-logo {
+	width: unset;
+}
+
+.footer-logo span {
+	font-size: 40px;
+}
+
+.footer-logo p {
+	padding: 0 25px;
+    margin-bottom: 50px;
+}
+
+.footer-info-content {
+    margin-bottom: 20px;
+}
+
+.footer-info-content h4 {
+	margin-bottom: 25px;
+}
+
+.footer-info-content a {
+	display: inline-block;
+    margin: 0 2px;
+}
+
+.footer-icons {
+	margin-top: 40px;
+}
+
+.copyright-text span {
+    padding: 0 30px;
+    line-height: 30px;
+}
+
+}
